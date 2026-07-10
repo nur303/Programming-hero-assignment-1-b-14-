@@ -179,3 +179,94 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+   /* SPEAKERS SECTION */
+.speakers {
+    padding: 70px 0;
+    background: #f9fafb;
+}
+
+.section-heading {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #1f2937;
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.speaker-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+}
+
+
+.speaker-image {
+    width: 300px;
+    height: 325px;
+    margin: 0 auto 30px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    /* border: 4px solid #667eea; */
+}
+
+.speaker-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.speaker-category {
+    display: inline-s-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.speaker-category.ai-ml {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.speaker-category.cloud {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.speaker-category.frontend {
+    background: #fce7f3;
+    color: #9f1239;
+}
+
+.speaker-category.security {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.speaker-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #1f2937;
+}
+
+.speaker-title {
+    font-size: 16px;
+    color: #6b7280;
+}
