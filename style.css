@@ -140,14 +140,16 @@ body {
         radial-gradient(circle at 80% 80%, rgba(118, 75, 162, 0.3) 0%, transparent 50%);
 }
 
-.hero-overlay {
+ .hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
-}
+    background-image: url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+} 
 
 .hero-content {
     position: relative;
@@ -318,9 +320,9 @@ body {
     transform: scale(1.05);
 }
 
-.pricing-card.featured:hover {
-    /* transform: scale(1.08) translateY(-5px); */
-}
+/* .pricing-card.featured:hover {
+    transform: scale(1.08) translateY(-5px);
+} */
 
 .featured-badge {
     position: absolute;
@@ -398,9 +400,7 @@ body {
     color: #78350f;
 }
 
-/* ============================================
-   SCHEDULE AT A GLANCE (AI GENERATED SECTION)
-   ============================================ */
+   /* SCHEDULE AT A GLANCE (AI GENERATED SECTION)/ */
 .schedule-glance {
     padding: 100px 0;
     background: linear-gradient(to bottom, #f9fafb 0%, #ffffff 100%);
@@ -558,9 +558,7 @@ body {
     color: #78350f;
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
+   /* FOOTER */
 .footer {
     background: #1f2937;
     color: white;
