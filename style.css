@@ -207,15 +207,16 @@ body {
 .speaker-card {
     background: white;
     border-radius: 16px;
-    padding: 32px;
-    text-align: left;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
     transition: all 0.3s ease; 
 }
 
-
+.speaker-info {
+    padding: 20px;
+    text-align: left;
+}
 .speaker-image {
-    width: 300px;
+    width: 100%;
     height: 325px;
     margin: 0 auto 30px;
     overflow: hidden;
@@ -262,7 +263,7 @@ body {
 .speaker-name {
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: #1f2937;
 }
 
