@@ -210,7 +210,7 @@ body {
     padding: 32px;
     text-align: left;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-    /* transition: all 0.3s ease; */
+    transition: all 0.3s ease; 
 }
 
 
@@ -218,9 +218,7 @@ body {
     width: 300px;
     height: 325px;
     margin: 0 auto 30px;
-    /* border-radius: 50%; */
     overflow: hidden;
-    /* border: 4px solid #667eea; */
 }
 
 .speaker-image img {
@@ -307,11 +305,11 @@ body {
     position: relative;
 }
 
-/* .pricing-card:hover {
+.pricing-card:hover {
     border-color: #667eea;
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(102, 126, 234, 0.15);
-} */
+} 
 
 .pricing-card.featured {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -320,9 +318,9 @@ body {
     transform: scale(1.05);
 }
 
-/* .pricing-card.featured:hover {
+.pricing-card.featured:hover {
     transform: scale(1.08) translateY(-5px);
-} */
+} 
 
 .featured-badge {
     position: absolute;
@@ -471,10 +469,10 @@ body {
     /* transition: all 0.3s ease; */
 }
 
-/* .timeline-content:hover {
+.timeline-content:hover {
      transform: scale(1.03); 
      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); 
-} */
+} 
 
 .day-badge {
     display: inline-block;
@@ -595,12 +593,12 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    /* transition: all 0.3s ease; */
+    transition: all 0.3s ease;
 }
 
 .social-icon:hover {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    /* transform: translateY(-3px); */
+    transform: translateY(-3px); 
 }
 
 .footer-divider {
@@ -649,13 +647,13 @@ body {
         grid-template-columns: 1fr;
     }
 
-    /* .pricing-card.featured {
+    .pricing-card.featured {
         transform: scale(1);
-    } */
+    } 
 
-    /* .timeline::before {
+    .timeline::before {
         left: 20px;
-    } */
+    } 
 
     .timeline-item,
     .timeline-item:nth-child(even) {
